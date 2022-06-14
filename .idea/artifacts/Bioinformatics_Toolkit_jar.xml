@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Bioinformatics-Toolkit:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Bioinformatics_Toolkit_jar</output-path>
+    <root id="archive" name="Bioinformatics-Toolkit.jar">
+      <element id="module-output" name="Bioinformatics-Toolkit" />
+    </root>
+  </artifact>
+</component>

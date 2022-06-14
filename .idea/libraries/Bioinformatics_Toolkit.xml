@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Bioinformatics-Toolkit">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/out/artifacts/Bioinformatics_Toolkit_jar/Bioinformatics-Toolkit.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
