@@ -21,8 +21,10 @@ public class Model {
         this.noOfSynonymousChange = noOfSynonymousChange;
         this.avgOfSynonymousChange = four.format(avgOfSynonymousChange);
         this.avgOfNonSynonymousChange = four.format(avgOfNonSynonymousChange);
-        double ds = noOfSynonymousChange/avgOfSynonymousChange;
-        double dn = noOfNonSynonymousChange/avgOfNonSynonymousChange;
+        double ps = noOfSynonymousChange/avgOfSynonymousChange;
+        double pn = noOfNonSynonymousChange/avgOfNonSynonymousChange;
+        double ds = -(3.0/4)*Math.log(1-(4.0/3)*ps);
+        double dn = -(3.0/4)*Math.log(1-(4.0/3)*pn);
         this.dn =   four.format(dn);
         this.ds =  four.format(ds);
         if(ds == 0) {

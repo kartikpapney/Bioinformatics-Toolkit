@@ -3,10 +3,8 @@ package Model;
 import Interface.OutputInterface;
 
 import java.io.*;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.lang.reflect.Array;
+import java.util.*;
 
 public class InputModel implements OutputInterface {
 
@@ -18,9 +16,28 @@ public class InputModel implements OutputInterface {
     public List<GeneSequenceModel> sequences = new ArrayList<>();
     public List<Model> result = new ArrayList<Model>();
     public InputModel() {
+//        HashSet<Character> a = new HashSet<>(), b = new HashSet<>(), c = new HashSet<>(), d = new HashSet<>();
+
         for(Object[] o : ob) {
+//            double val = SynSite[(Integer)o[1]];
             mapping.put(((String) o[0]).toLowerCase(), (Integer) o[1]);
+//            if(val == 0)  {
+//                a.add(AA1[(Integer)o[1]]);
+//            }
+//            if(val == 0.333333333)  {
+//                b.add(AA1[(Integer)o[1]]);
+//            }
+//            if(val == 0.666666667)  {
+//                c.add(AA1[(Integer)o[1]]);
+//            } if(val == 1) {
+//                d.add(AA1[(Integer) o[1]]);
+//            }
+//            if(AA1[(Integer)o[1]] == 'L' || AA1[(Integer)o[1]] == 'R' || AA1[(Integer)o[1]] == 'S') {
+//                System.out.println(AA1[(Integer)o[1]] + " " + ((String) o[0]).toUpperCase(Locale.ROOT) + " " + SynSite[(Integer)o[1]]);
+//            }
         }
+//        System.out.println(a);
+//        System.out.println(b);System.out.println(c);System.out.println(d);
     }
     public void calculate() {
         int sno = 1;
@@ -104,10 +121,11 @@ public class InputModel implements OutputInterface {
             if(acodon.toString().equals(bcodon.toString())) {
 
             } else {
-                char c1 = AA1[mapping.get(acodon.toString())];
-                char c2 = AA1[mapping.get(bcodon.toString())];
-                if(c1 == c2) result[0]++;
-                else result[1]++;
+                String ac = acodon.toString();
+                String bc = bcodon.toString();
+                if(ac.charAt(2) != bc.charAt(2)) result[0]++;
+                if(ac.charAt(1) != bc.charAt(1)) result[1]++;
+                if(ac.charAt(0) != bc.charAt(0)) result[1]++;
             }
         }
         return result;
@@ -119,5 +137,4 @@ public class InputModel implements OutputInterface {
         double[] b = findSynonymousAndNonSynonymousChange(second);
         return new double[]{(a[0]+b[0])/2, (a[1]+b[1])/2};
     }
-
 }
