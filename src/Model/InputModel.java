@@ -18,6 +18,7 @@ public class InputModel implements OutputInterface {
     public InputModel() {
         for(Object[] o : ob) {
             mapping.put(((String) o[0]).toLowerCase(), (Integer) o[1]);
+        }
     }
     public void calculate() {
         int sno = 1;
