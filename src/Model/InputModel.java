@@ -16,28 +16,8 @@ public class InputModel implements OutputInterface {
     public List<GeneSequenceModel> sequences = new ArrayList<>();
     public List<Model> result = new ArrayList<Model>();
     public InputModel() {
-//        HashSet<Character> a = new HashSet<>(), b = new HashSet<>(), c = new HashSet<>(), d = new HashSet<>();
-
         for(Object[] o : ob) {
-//            double val = SynSite[(Integer)o[1]];
             mapping.put(((String) o[0]).toLowerCase(), (Integer) o[1]);
-//            if(val == 0)  {
-//                a.add(AA1[(Integer)o[1]]);
-//            }
-//            if(val == 0.333333333)  {
-//                b.add(AA1[(Integer)o[1]]);
-//            }
-//            if(val == 0.666666667)  {
-//                c.add(AA1[(Integer)o[1]]);
-//            } if(val == 1) {
-//                d.add(AA1[(Integer) o[1]]);
-//            }
-//            if(AA1[(Integer)o[1]] == 'L' || AA1[(Integer)o[1]] == 'R' || AA1[(Integer)o[1]] == 'S') {
-//                System.out.println(AA1[(Integer)o[1]] + " " + ((String) o[0]).toUpperCase(Locale.ROOT) + " " + SynSite[(Integer)o[1]]);
-//            }
-        }
-//        System.out.println(a);
-//        System.out.println(b);System.out.println(c);System.out.println(d);
     }
     public void calculate() {
         int sno = 1;
