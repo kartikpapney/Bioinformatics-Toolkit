@@ -59,6 +59,7 @@ dN/dS ratio</li>
 
 ![alt text](./1.png)
 <p>S(Whale) = 12, N(Whale) = 48</p>
+
 ![alt text](./2.png)
 <p>S(Sheep) = 12.33, N(Sheep) = 47.67</p>
 
