@@ -79,4 +79,4 @@ dN/dS ratio</li>
 
 
 ## Software
-<p>Download our application software form <a href="https://kartikpapney.github.io/Bioinformatics-Project-WebPage/">Link</a></p>
+<p>Download our application software form <a href="https://kartikpapney.github.io/Bioinformatics-Project-WebPage/" target="_blank">Link</a></p>
