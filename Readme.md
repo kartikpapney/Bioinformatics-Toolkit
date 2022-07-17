@@ -2,7 +2,7 @@
 
 ## ABSTRACT
 
-<p>In genetics, the Ka/Ks ratio, also known as ω or dN/dS ratio is used to estimate the balance between neutral mutations, purifying selection and beneficial mutations acting on a set of homologous protein-coding genes. It is calculated as the ratio of the number of nonsynonymous substitutions per non-synonymous site (Ka), in a given period of time, to the number of synonymous substitutions per synonymous site (Ks), in the same period. The latter are assumed to be neutral, so that the ratio indicates the net balance between deleterious and beneficial mutations. Values of Ka/Ks significantly above 1 are unlikely to occur without at least some of the mutations being advantageous. If beneficial mutations are assumed to make little contribution, then Ks estimates the degree of evolutionary constraint.</p>
+In genetics, the Ka/Ks ratio, also known as ω or dN/dS ratio is used to estimate the balance between neutral mutations, purifying selection and beneficial mutations acting on a set of homologous protein-coding genes. It is calculated as the ratio of the number of nonsynonymous substitutions per non-synonymous site (Ka), in a given period of time, to the number of synonymous substitutions per synonymous site (Ks), in the same period. The latter are assumed to be neutral, so that the ratio indicates the net balance between deleterious and beneficial mutations. Values of Ka/Ks significantly above 1 are unlikely to occur without at least some of the mutations being advantageous. If beneficial mutations are assumed to make little contribution, then Ks estimates the degree of evolutionary constraint.
 
 <p>The goal of the project is to develop a desktop software using which biologists can calculate the dN/dS value. In the user interface user will provide input in a file and te software will automatically calculate the following things</p>
 <ol>
@@ -54,5 +54,6 @@ dN/dS ratio</li>
 
 
 ### Counting Method
-    <p><b>This project aims for calculating the value of dN/dS using the counting method.</b></p>
+    This project aims for calculating the value of dN/dS using the counting method.
 
+![alt text](https://github.com/kartikpapney/Bioinformatics-Toolkit/blob/master/1.jpg?raw=true)
