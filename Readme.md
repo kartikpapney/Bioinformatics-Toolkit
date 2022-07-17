@@ -54,6 +54,24 @@ dN/dS ratio</li>
 
 
 ### Counting Method
-    This project aims for calculating the value of dN/dS using the counting method.
+    This project aims for calculating the value of dN/dS using the counting method. Below is an example
 
-![alt text](https://github.com/kartikpapney/Bioinformatics-Toolkit/blob/master/1.jpg?raw=true)
+
+![alt text](./1.png)
+<p>S(Whale) = 12, N(Whale) = 48</p>
+![alt text](./2.png)
+<p>S(Sheep) = 12.33, N(Sheep) = 47.67</p>
+
+### Calculations
+<ol>
+    <li>Synonymous changes: 3</li>
+    <li>Non-Synonymous changes: 5</li>
+    <li>Synonymous Sites = (S(whale) + S(sheep))/2 =  12.17</li>
+    <li>Non Synonymous Sites  = (N(whale) + N(sheep))/2 =  47.83</li>
+    <li>pN = Non-synonymous Changes/Non-Synonymous sites = 0.10</li>
+    <li>pS = Synonymous Changes/Synonymous Sites = 0.25</li>
+    <li>dN = -(3/4)ln(1-(4/3)*pN) = 0.11</li>
+    <li>dS = -(3/4)ln(1-(4/3)*pS) = 0.29</li>
+    <li>dN/dS =0.39</li>
+    <li>This result suggests that the sequence is under Negative Selection.</li>
+</ol>
