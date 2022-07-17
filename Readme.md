@@ -26,8 +26,8 @@ dN/dS ratio</li>
 
 <p>A change (mutation) in a codon in a gene may/may not change the way the protein (produced out the gene) functions. This in return may affect the fitness of the organism.</p>
 
-    <p><b>GGG → GGA (Synonymous Change)</b></p>
-    <p><b>AGG → AGG (Non Synonymous Change)</b></p>
+<p><b>GGG → GGA (Synonymous Change)</b></p>
+<p><b>AGG → AGG (Non Synonymous Change)</b></p>
 
 ### Positive Selection (Adaptive or Darwinian selection)
 
@@ -54,7 +54,7 @@ dN/dS ratio</li>
 
 
 ### Counting Method
-    This project aims for calculating the value of dN/dS using the counting method. Below is an example
+This project aims for calculating the value of dN/dS using the counting method. Below is an example
 
 
 ![alt text](./1.png)
